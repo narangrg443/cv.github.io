@@ -115,7 +115,7 @@
       this.vy=0;
       this.m=0;
       this.v=new Vector(0,0);
-      
+      this.fillColor="green";
     }
     drawVector(mag){
       if(mag==undefined)mag=4;
@@ -134,9 +134,12 @@
       ctx.rect(this.x,this.y,this.w,this.h);
       ctx.strokeStyle=this.s_color;
       ctx.stroke();
+    //  ctx.fillStyle=this.fillColor;
+      //ctx.fillRect(this.x,this.y,this.w,this.h)
       ctx.closePath();
       ctx.restore();
     }
+    
     move(){
       this.x+=this.vx;
       this.y+=this.vy;
