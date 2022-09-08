@@ -281,4 +281,4 @@
   
     export {canvas,ctx,Circle,draw,Vector,collisionDetect,Rectangle}
     //import {canvas,ctx,Circle,draw,Vector,collisionDetect,Rectangle} from "./canvas.js"
-    
+    export let h ="hello"
