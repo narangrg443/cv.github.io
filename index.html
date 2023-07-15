@@ -1,93 +1,101 @@
-<!--
-https://narangrg443.github.io/cv.github.io/ 
--->
-
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Personal bio data">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-   <title></title>
-  <style>
-    *{
-      padding:0px;
-      margin:0px;
-      text-decoration: none;
-      list-style:none;
-      box-sizing: border-box;
-      
-    }
-    .container{
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="src/css/style.css">
   
-      position: relative;
-      align-content: center;
-      align-items: center;
-      width:100%;
-     height:100%px;
-    
-    }
-  .ref{
-  text-align: center;  
-  }
-    .menu{
   
-      margin:0px;
-    position: absolute;
-    align-content: center;
-    align-items: center;
-    left:39%;
-    transform:translateX(-45%);
-    top:54%;
-    transform:translateY(-50%);
-      font-size:22px;
-  color:darkblue;
-  text-shadow:3px 5px 3px black;
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <!-- Load Pacifico font from Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
   
-  border-radius:50%;
-box-shadow: 0px 15px 20px 5px white,inset 0px -15px 20px 1px white,
-0px 15px 40px 1px yellow,inset 0px -15px 40px 1px yellow;
-;
+<style>
+  
+</style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="menu-bar">
+        <li><a href="#home">Home</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-
-    }
-    
-    .logo{
-      position:absolute;
-      font-size:35px;
-      top:-37px;
-      left:35px;
-    }
-    img{
-     margin:0px;
-     padding:0px;
-      width:100%;
-      height:300px;
-    }
-  
-
-  </style>
-  
-  </head>
-  <body>
+  <section id="home">
     <div class="container">
-   <nav>
-     <div class ="menu">
-       
-     <label class="logo"style="color:white"><a href="game/game.html" style="color:white">Game</a></label>
-     <div class ="ref">
-     <li><a href="index.html" style="color:white">Home</a></li>
-     <li><a href="https://www.google.com/amp/s/gadgets360.com/news/amp"style="color:white">World Tech News</a></li> 
-     <li><a href="https://www.gamespot.com/news/"style="color:white">Gaming World</a></li>
-     <li><a href="https://playcode.io/html/"style="color:white">Learning Space</a></li>
-     <li><a href="aboutMe.html"style="color:yellow">About me</a></li>
-     </div>
-     </nav>
-   <img src="https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2342&q=80"  >
+      <h1>NARAYAN GURUNG</h1>
+      <img src="assets/naran.jpg"/>
+    <h2>Skills</h2>
+      <h3>HTML 90% | CSS 85% | JavaScript 80% | Node.js 80% | Mongodb 80% | React 75% </h3>
+    
 
-   </div>
+<!-- skill contaier -->
+<!-- <div class="container">
+  
+    <div class="skill-level">
+     <span class="skill-level-html">html</span>
+      <span class="skill-level-css">css</span>
+      <span class="skill-level-react">React</span>
+      <span class="skill-level-js">JavaScript</span>
+      <span class="skill-level-nodejs">Node.js</span>
+        </div>
+  </div>
+ -->
+    
+    </div>
+  </section>
 
-   </div>
 
-  </body>
+
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am an enthusiastic web developer with a passion for building dynamic and visually appealing web applications.My expertise as a full-stack developer, I possess a comprehensive skill set that spans both frontend and backend development.
+</p>
+
+</p>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-item">
+        <img src="path_to_image.jpg" alt="Project 1">
+        <h4>Project 1</h4>
+        <p>Description of Project 1</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="path_to_image.jpg" alt="Project 2">
+        <h4>Project 2</h4>
+        <p>Description of Project 2</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="form-container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 15 july 2023 Portfolio</p>
+    </div>
+  </footer>
+</body>
 </html>
